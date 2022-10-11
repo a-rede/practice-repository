@@ -10,6 +10,11 @@ a:hover {
     color: pink;
 }
 
+li:first-child::first-letter {
+    font-weight: bold;
+    font-size: 120%;
+}
+
 [title="BCIT Homepage"] {
     background-color: yellow;
 }
