@@ -1,12 +1,12 @@
-a {
+li a:link {
     color: green;
 }
 
-a:visited {
+li a:visited {
     color: red;
 }
 
-a:hover {
+li a:hover {
     color: pink;
 }
 
@@ -15,6 +15,6 @@ li:first-child::first-letter {
     font-size: 120%;
 }
 
-[title="BCIT Homepage"] {
+a[title~="BCIT"] {
     background-color: yellow;
 }
