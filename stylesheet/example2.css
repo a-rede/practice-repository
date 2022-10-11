@@ -1,0 +1,15 @@
+a {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: pink;
+}
+
+[title="BCIT Homepage"] {
+    background-color: yellow;
+}
